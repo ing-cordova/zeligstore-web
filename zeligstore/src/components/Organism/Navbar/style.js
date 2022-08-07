@@ -12,6 +12,6 @@ export const StyleNavbar = styled.nav`
   height: 65px;
   backdrop-filter: saturate(180%) blur(10px);
   box-shadow: rgb(2 1 1 / 10%) 0 5px 20px -5px;
-  background: ${({ theme }) => theme.colors.nav};
-  z-index: ${({ theme }) => theme.zIndex.nav};
+  background: ${({theme}) => theme.colors.background};
+  z-index: ${({theme}) => theme.zIndex.nav};
 `;

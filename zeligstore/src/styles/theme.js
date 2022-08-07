@@ -16,14 +16,12 @@ const colorsLight = {
   nav: 'rgba(255, 255, 255, 0.8)',
   paginationNav: '#9697A5',
   input: '#F5F5F5',
-  shadowInput: 'rgb(224, 224, 224)'
-
-
+  shadowInput: 'rgb(224, 224, 224)',
 };
 
 const colorsDark = {
   ...colorsLight,
-  background: '#000000',
+  background: '#17181F',
   text: '#ffffff',
   bgCard: 'rgba(100, 100, 200, 0.3)',
   nav: 'rgba(0, 0, 0, .5)',
